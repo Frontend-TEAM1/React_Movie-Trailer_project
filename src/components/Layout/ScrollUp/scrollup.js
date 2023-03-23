@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { flexAllCenter } from 'styles/common';
+import { flexAllCenter } from 'Styles/common';
 
 const ScrollUpBtn = () => {
 	return <Icon>top</Icon>;

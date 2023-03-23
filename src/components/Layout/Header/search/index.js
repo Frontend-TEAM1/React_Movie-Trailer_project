@@ -7,7 +7,7 @@ function SearchBar() {
 	const onSearchSubmit = e => {
 		const searchWord = e.target.word.value;
 		if (searchWord) {
-			navigate('/search');
+			navigate('/search', { state: { keyword: searchWord } });
 		}
 	};
 
@@ -19,7 +19,7 @@ function SearchBar() {
 				name="word"
 			></InputBox>
 			<Button>
-				<img src="/images/search_icon.png" alt="icon"></img>
+				<img src="/Assets/search_icon.png" alt="icon"></img>
 			</Button>
 		</Form>
 	);

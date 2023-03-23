@@ -1,9 +1,8 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { flexAlignCenter, flexSpaceBetween } from 'styles/common';
+import { flexAlignCenter, flexSpaceBetween } from 'Styles/common';
 
 const BasicFooter = () => {
-
 	return (
 		<S.FooterWrapper>
 			<S.FooterContainer>
@@ -43,10 +42,9 @@ const BasicFooter = () => {
 					<Link to={'https://github.com/YoungSeungJang'}> [Link]</Link>
 				</S.FooterContent>
 			</S.FooterContainer>
-			<img src="asset/footerImg.png" />
+			<img src="Assets/footerImg.png" />
 		</S.FooterWrapper>
 	);
-
 };
 
 export default BasicFooter;

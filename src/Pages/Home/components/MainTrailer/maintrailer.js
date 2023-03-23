@@ -1,4 +1,3 @@
-
 import MovieCard from 'components/Card/Card';
 import { dummy } from 'tempData';
 import MovieSlider from './Slider';
@@ -24,5 +23,3 @@ const MainTrailer = () => {
 };
 
 export default MainTrailer;
-
-

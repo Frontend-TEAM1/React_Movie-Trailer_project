@@ -1,10 +1,9 @@
-
 import LayOut from 'components/Layout';
+import DetailInfoPage from 'Pages/DetailPage/detailInfo';
 import SearchPage from 'Pages/Search';
-import DetailPage from '../Pages/DetailPage';
+import { createBrowserRouter } from 'react-router-dom';
+
 import HomePage from '../Pages/Home';
-import MainTrailer from 'Pages/Home/MainTrailer/maintrailer';
-const { createBrowserRouter } = require('react-router-dom');
 
 const router = createBrowserRouter([
 	{
@@ -22,13 +21,12 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/detail/:id',
-				element: <DetailPage />,
+				element: <DetailInfoPage />,
 			},
 			{
 				path: '/search',
 				element: <SearchPage />,
 			},
-
 		],
 	},
 ]);
