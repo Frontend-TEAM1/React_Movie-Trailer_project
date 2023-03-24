@@ -7,7 +7,7 @@ function SearchBar() {
 	const onSearchSubmit = e => {
 		const searchWord = e.target.word.value;
 		if (searchWord) {
-			navigate('/search');
+			navigate('/search', { state: { keyword: searchWord } });
 		}
 	};
 
