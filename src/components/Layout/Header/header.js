@@ -1,7 +1,8 @@
 // import { Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { flexSpaceBetween } from 'Styles/common';
-import SearchBar from './Search';
+import SearchBar from './search';
+
 const BasicHeader = () => {
 	// const navigate = Navigate();
 
